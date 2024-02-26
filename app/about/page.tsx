@@ -1,28 +1,12 @@
-import Card1 from "@/components/Card1"
+import AboutMain from "@/components/AboutMain"
+import AboutHighlits from "@/components/AboutHighlits"
 
 const page = () => {
   return (
-    <section className="flex flex-wrap mx-auto">
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-      <Card1 />
-    </section>
+    <main>
+      <AboutMain />
+      <AboutHighlits />
+    </main>
   )
 }
 

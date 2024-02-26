@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
-import "./globals.css";
-import BG from "@/components/BG";
 import Footer from "@/components/Footer";
+import "./globals.css";
+import CallButton from "@/components/CallButton";
+
 
 
 
@@ -20,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="h-screen  overflow-x-hidden overflow-y-auto select-none flex flex-col justify-between">
         <Header />
-        <BG />
+        <CallButton />
         <div className="flex-1 overflow-y-auto">
           {children}
 

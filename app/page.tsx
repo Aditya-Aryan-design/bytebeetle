@@ -1,15 +1,14 @@
+import Features from "@/components/Features"
 import Hero from "@/components/Hero"
-import Card2 from "@/components/Card2"
+import HomeAbout from "@/components/HomeAbout"
 
-const page = () => {
+function page() {
   return (
     <>
       <Hero />
-      <div className="flex flex-wrap">
-
-      <Card2 />
-
-      </div>
+      <HomeAbout />
+      <hr />
+      <Features />
     </>
   )
 }

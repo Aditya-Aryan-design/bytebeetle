@@ -1,31 +1,31 @@
-import dynamic from 'next/dynamic'
-import Link from 'next/link'
+import HeroData from "@/data/HeroData"
+import Image from "next/image";
+import Link from "next/link";
 
 
-const BeetleCanvas = dynamic(() => import('@/components/BeetleCanvas'), { ssr: false })
+const {title,img,desc,button} = HeroData;
 
 const Hero = () => {
-    return (
+  return (
+    <section className="text-gray-600 body-font mt-8">
+  <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <Image height={600} width={720} className="object-cover object-center rounded" alt="hero" src={img}/>
+    </div>
+    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">{title}
+      </h1>
+      <p className="mb-8 leading-relaxed">{desc}</p>
+      <div className="flex justify-center">
 
-        <section className='text-zinc-500 text-center md:text-start py-5 md:py-8 px-3 md:px-10 flex flex-col md:flex-row-reverse items-center justify-around space-y-3'>
-
-            <div className="w-[40vmin] md:w-[50vmin] h-[40vmin] md:h-[50vmin] m-auto">
-
-                <BeetleCanvas />
-            </div>
-            <div className='md:w-1/2'>
-                <h1 className='sectionHeading color my-4'>Lorem ipsum dolor sit amet.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi explicabo asperiores suscipit. Consectetur optio dolorem sunt ipsa neque doloremque eos atque ex recusandae harum, explicabo et quidem cupiditate deleniti.</p>
-
-                <Link href="/contact">
-                <button className='btn my-5'>
-                    Contact
-                </button>
-            </Link>
-            </div>
-            
-        </section>
-    )
+        <Link href={button.link}><button className="inline-flex text-white bg-teal-600 border-0 py-2 px-6 focus:outline-none hover:bg-teal-700 rounded text-lg">{button.name}</button></Link>
+    
+      </div>
+    </div>
+  </div>
+  
+</section>
+  )
 }
 
 export default Hero
