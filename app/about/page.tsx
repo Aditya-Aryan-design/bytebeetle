@@ -1,5 +1,6 @@
 import AboutMain from "@/components/AboutMain"
 import AboutHighlits from "@/components/AboutHighlits"
+import { memo } from "react"
 
 const page = () => {
   return (
@@ -10,4 +11,4 @@ const page = () => {
   )
 }
 
-export default page
+export default memo(page)

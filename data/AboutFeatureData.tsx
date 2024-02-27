@@ -8,6 +8,7 @@ import { MdOutlineMobileFriendly, MdOutlineSentimentSatisfied } from "react-icon
 import { TbBrandNextjs, TbSeo } from "react-icons/tb";
 
 
+
 export default {
     title: "Some Key Points",
     item: [

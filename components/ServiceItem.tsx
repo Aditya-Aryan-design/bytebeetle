@@ -1,4 +1,5 @@
 import { ReactNode } from "react"
+import { memo } from "react"
 
 const ServiceItem = ({children, number,title, desc}:{
   children:ReactNode
@@ -25,4 +26,4 @@ const ServiceItem = ({children, number,title, desc}:{
   )
 }
 
-export default ServiceItem
+export default memo(ServiceItem)

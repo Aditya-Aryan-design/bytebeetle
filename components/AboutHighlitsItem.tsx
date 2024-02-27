@@ -1,5 +1,6 @@
 
 import { ReactNode } from "react"
+import { memo } from "react"
 
 const AboutHighlitsItem = ({children,title,desc}:{
   children:ReactNode,
@@ -22,4 +23,4 @@ const AboutHighlitsItem = ({children,title,desc}:{
   )
 }
 
-export default AboutHighlitsItem
+export default memo(AboutHighlitsItem)

@@ -1,5 +1,6 @@
 import AboutHighlitsItem from "./AboutHighlitsItem"
 import AboutFeatureData from "@/data/AboutFeatureData"
+import { memo } from "react"
 
 const {title,item} = AboutFeatureData
 
@@ -22,4 +23,4 @@ const AboutHighlits = () => {
   )
 }
 
-export default AboutHighlits
+export default memo(AboutHighlits)

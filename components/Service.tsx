@@ -1,5 +1,6 @@
 import ServiceItem from "./ServiceItem"
 import { ServicesData } from "@/data/ServiceData"
+import { memo } from "react"
 
 
 
@@ -22,4 +23,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default memo(Service)

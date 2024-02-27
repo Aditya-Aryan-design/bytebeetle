@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
 import CallButton from "@/components/CallButton";
+import { memo } from "react";
 
 
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
   ]
 };
 
-export default function RootLayout({
+export default memo(function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -33,4 +34,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+})

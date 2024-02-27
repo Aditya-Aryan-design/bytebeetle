@@ -1,6 +1,7 @@
 import Service from "@/components/Service"
 import { ServiceMain, Desc1,Desc2 } from "@/data/ServiceData"
 import Link from "next/link";
+import { memo } from "react";
 
 const { title, button } = ServiceMain;
 
@@ -25,4 +26,4 @@ const page = () => {
   )
 }
 
-export default page
+export default memo(page)

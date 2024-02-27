@@ -2,6 +2,7 @@
 import { BsWhatsapp } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { ownerContact } from "@/data/ContactData";
+import { memo } from "react";
 
 const {whatsapp} = ownerContact;
 
@@ -22,4 +23,4 @@ const CallButton = () => {
   )
 }
 
-export default CallButton
+export default memo(CallButton)

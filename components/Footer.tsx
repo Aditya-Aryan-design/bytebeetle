@@ -1,6 +1,7 @@
 import { MainTitle1,MainTitle2,navLinks } from "@/data/HeaderData"
 import Image from "next/image"
 import Link from "next/link"
+import { memo } from "react"
 
 
 
@@ -69,4 +70,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default memo(Footer)

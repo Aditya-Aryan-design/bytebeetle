@@ -1,6 +1,7 @@
 import Features from "@/components/Features"
 import Hero from "@/components/Hero"
 import HomeAbout from "@/components/HomeAbout"
+import { memo } from "react"
 
 function page() {
   return (
@@ -13,4 +14,4 @@ function page() {
   )
 }
 
-export default page
+export default memo(page)

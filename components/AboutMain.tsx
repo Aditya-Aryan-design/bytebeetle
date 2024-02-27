@@ -1,6 +1,7 @@
 import AboutMainData,{Desc} from "@/data/AboutMainData"
 import Link from "next/link";
 import Image from "next/image";
+import { memo } from "react";
 
 const {title,button,img} = AboutMainData;
 
@@ -25,4 +26,4 @@ const AboutMain = () => {
   )
 }
 
-export default AboutMain
+export default memo(AboutMain)

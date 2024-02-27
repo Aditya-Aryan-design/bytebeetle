@@ -48,7 +48,7 @@ function Nav() {
                 animate={{scale:1,y:0,x:0}}
                 exit={{scale:0,y:-70,x:25}}
 
-                onClick={()=>setShowNav(false)} className="flex flex-col absolute right-[3vmin] bg-gray-50 bg-opacity-80 text-[4vmin] shadow-md rounded-lg overflow-hidden">
+                onClick={()=>setShowNav(false)} className="flex flex-col absolute right-[3vmin] bg-gray-50 bg-opacity-90 text-[4vmin] shadow-md rounded-lg overflow-hidden">
                 {
                     navLinks.map((e, i) => {
                         return (

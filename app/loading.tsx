@@ -1,5 +1,6 @@
 "use client"
 import { Vortex } from "react-loader-spinner"
+import { memo } from "react"
 
 
 const Loading = () => {
@@ -10,4 +11,4 @@ const Loading = () => {
     )
 }
 
-export default Loading
+export default memo(Loading)

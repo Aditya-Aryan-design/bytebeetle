@@ -1,6 +1,7 @@
 import HeroData,{Desc} from "@/data/HeroData"
 import Image from "next/image";
 import Link from "next/link";
+import { memo } from "react";
 
 
 const {title,img,button} = HeroData;
@@ -28,4 +29,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default memo(Hero)
