@@ -6,7 +6,7 @@ import { MainTitle1,MainTitle2 } from "@/data/HeaderData"
 
 function Header() {
   return (
-    <header className='z-50 px-[4vmin] flex justify-between items-center w-full sticky top-0 left-0 shadow-md'>
+    <header className='z-50 px-[4vmin] flex justify-between items-center w-full sticky top-0 left-0 shadow-md bg-white'>
       <Link href="/" className="flex space-x-[1vmin]">
 
         <Image src="/icon.jpg" height={50} width={50} alt="" className="h-[7vmin] w-auto"/>

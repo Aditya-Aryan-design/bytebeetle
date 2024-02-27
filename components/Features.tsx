@@ -11,7 +11,9 @@ const Features = () => {
         <div className='flex flex-wrap'>
         {
           item.map((e,i)=>{
-            return <AboutHighlitsItem key={i} title={e.itemTitle} desc={e.itemDesc} img={e.itemImg}/>
+            return <AboutHighlitsItem key={i} title={e.itemTitle} desc={e.itemDesc} >
+              {e.itemIcon}
+            </AboutHighlitsItem>
           })
         }
         </div>

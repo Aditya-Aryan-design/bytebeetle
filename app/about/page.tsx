@@ -3,7 +3,7 @@ import AboutHighlits from "@/components/AboutHighlits"
 
 const page = () => {
   return (
-    <main>
+    <main className="flex-1">
       <AboutMain />
       <AboutHighlits />
     </main>

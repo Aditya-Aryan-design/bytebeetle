@@ -4,12 +4,12 @@ import HomeAbout from "@/components/HomeAbout"
 
 function page() {
   return (
-    <>
+    <div className="flex-1">
       <Hero />
       <HomeAbout />
       <hr />
       <Features />
-    </>
+    </div>
   )
 }
 

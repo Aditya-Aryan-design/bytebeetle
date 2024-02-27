@@ -1,8 +1,9 @@
 export const ContactTitle = "Contact";
 
 export const ownerContact = {
-    email: "adityaaryan@gmail.com",
-    phone: "+919693967364"
+    email: "devadityaaryan@gmail.com",
+    phone: "+919693967364",
+    whatsapp: "https://wa.me/qr/JHMDS3TUB3GCK1"
 }
 
 export const Desc = ()=>{
