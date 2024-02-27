@@ -16,14 +16,14 @@ export const ServiceMain ={
 export const Desc1 = ()=>{
     return(
         <>
-        At <b>BalzeSites</b>, we offer a comprehensive range of <b>web development</b> services tailored to meet the <b>unique needs of businesses in Pune, Mumbai, and across India</b>. From <b>custom website design</b> to <b>e-commerce solutions</b> and everything in between, we're here to help you build a strong and successful online presence. Explore our services below:
+        At <b>BlazeSites</b>, we offer a comprehensive range of <b>web development</b> services tailored to meet the <b>unique needs of businesses in Pune, Mumbai, and across India</b>. From <b>custom website design</b> to <b>e-commerce solutions</b> and everything in between, we're here to help you build a strong and successful online presence. Explore our services below:
         </>
     )
 }
 
 export const Desc2 = ()=>{
     return <>
-    Whether you're looking to launch a new website, optimize your existing site, or explore <b>e-commerce opportunities</b>, <b>BalzeSites</b> has the expertise and experience to help you succeed online. Contact us today to discuss your project requirements and see how we can bring your vision to life.
+    Whether you're looking to launch a new website, optimize your existing site, or explore <b>e-commerce opportunities</b>, <b>BlazeSites</b> has the expertise and experience to help you succeed online. Contact us today to discuss your project requirements and see how we can bring your vision to life.
     </>
 }
 

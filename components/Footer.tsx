@@ -9,10 +9,10 @@ import { memo } from "react"
 const Footer = () => {
   return (
     <footer className="text-gray-600 body-font bg-teal-50 mt-10 border-teal-600 border-t-2">
-  <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col justify-between">
+  <div className="container px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col justify-between items-center">
     
 
-    <nav className="my-10">
+    <nav>
       <ul className="text-center md:flex">
         {navLinks.map((e,i)=>{
           return(
@@ -29,7 +29,7 @@ const Footer = () => {
 
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
       <Link className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="/">
-        <Image src="/icon.jpg" alt="" height={50} width={50}/>
+        <Image src="/icon.jpg" alt="BlazeSites logo" height={50} width={50}/>
         <h1 className="ml-3 text-xl">{MainTitle1}<span className="text-teal-600">{MainTitle2}</span></h1>
       </Link>
     </div>

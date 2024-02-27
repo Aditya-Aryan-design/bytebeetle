@@ -1,5 +1,5 @@
 export default {
-    title: "About BalzeSites: Your Next.js Web Development Partner",
+    title: "About BlazeSites: Your Next.js Web Development Partner",
     img: "/about.jpeg",
     button:{
         name:"Contact",
@@ -12,7 +12,7 @@ export const Desc = ()=>{
         <>
             <h3>Who we are</h3>
             <p>
-            At <b>BalzeSites</b>, we're a passionate team of <b>web developers based in Pune, India</b>, dedicated to delivering cutting-edge websites that meet the evolving needs of businesses in today's digital landscape.
+            At <b>BlazeSites</b>, we're a passionate team of <b>web developers based in Pune, India</b>, dedicated to delivering cutting-edge websites that meet the evolving needs of businesses in today's digital landscape.
             </p>
 
             <h3>Our Expertise</h3>
@@ -27,7 +27,7 @@ export const Desc = ()=>{
 
             <h3>Our Approach</h3>
             <p>
-            At <b>BalzeSites</b>, we believe in a collaborative approach to <b>web development</b>. We work closely with our clients to understand their unique requirements, goals, and target audience, ensuring that every website we create is tailored to their specific needs.
+            At <b>BlazeSites</b>, we believe in a collaborative approach to <b>web development</b>. We work closely with our clients to understand their unique requirements, goals, and target audience, ensuring that every website we create is tailored to their specific needs.
             </p>
 
             <h3>Client Satisfaction</h3>
@@ -37,7 +37,7 @@ export const Desc = ()=>{
 
             <h3>Get in Touch</h3>
             <p>
-            Ready to take your online presence to the next level? Whether you're a startup, small business, or enterprise, <b>BalzeSites</b> is here to help. Contact us today to discuss your project requirements and see how we can bring your ideas to life with Next.js.
+            Ready to take your online presence to the next level? Whether you're a startup, small business, or enterprise, <b>BlazeSites</b> is here to help. Contact us today to discuss your project requirements and see how we can bring your ideas to life with Next.js.
             </p>
         </>
     )
