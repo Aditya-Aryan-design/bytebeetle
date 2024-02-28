@@ -8,10 +8,15 @@ const {title,img,button} = HeroData;
 
 const Hero = () => {
   return (
-    <section className="body-font w-screen">
-      <div className="absolute rotate-45 -z-40 w-[100vmin] h-[100vmin] bg-gradient-to-br from-blue-200 via-sky-200 to-blue-100 -top-10 -left-[15vmin] rounded-[50px]"></div>
+    <section className="body-font w-[98vw] overflow-hidden">
+      <div className="absolute rotate-45 -z-40 bg-gradient-to-br px-10 py-10 from-blue-200 via-sky-200 to-blue-100 top-5 left-5 font-extrabold text-white rounded-3xl">B</div>
 
-      <div className="absolute rotate-45 -z-50 w-[90vmin] h-[90vmin] bg-gradient-to-br from-orange-100 via-rose-100 to-red-100 -top-10 -right-[15vmin] rounded-full"></div>
+<div className="absolute -z-50 -rotate-12 bg-gradient-to-br from-orange-100 via-rose-100 to-red-100 top-0 right-5 rounded-full text-3xl text-white font-extrabold px-10 py-10">S</div>
+
+<div className="absolute -rotate-45 -z-40 bg-gradient-to-br px-10 py-10 from-blue-200 via-sky-200 to-blue-100 top-72 right-11 font-extrabold text-white rounded-3xl">B</div>
+
+<div className="absolute -z-50 -rotate-90 bg-gradient-to-br from-orange-100 via-rose-100 to-red-100 top-96 left-14 rounded-full text-3xl text-white font-extrabold px-10 py-10">S</div>
+      
   <div className="container mx-auto flex px-5 md:flex-row flex-col items-center z-10">
       <Image src={img} alt="heroimage" width={300} height={300} className="w-[90%] h-auto max-h-96 max-w-96 m-2 sm:m-5 rounded-xl shadow-md"/>
 
