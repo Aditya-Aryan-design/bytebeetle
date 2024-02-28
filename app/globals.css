@@ -14,7 +14,7 @@
 
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-teal-700 rounded-lg bg-opacity-25
+  @apply bg-blue-700 rounded-lg bg-opacity-50
 }
 
 
@@ -23,7 +23,7 @@
 }
   
 .sectionHeading{
-  @apply text-xl sm:text-2xl font-semibold text-center py-5 text-teal-700
+  @apply text-xl sm:text-2xl font-semibold text-center py-5 text-blue-700
 }
 
 h3{

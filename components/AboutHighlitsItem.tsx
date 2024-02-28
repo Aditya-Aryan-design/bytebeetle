@@ -10,7 +10,7 @@ const AboutHighlitsItem = ({children,title,desc}:{
   return (
     <div className="p-4 lg:w-1/2 md:w-full">
     <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col shadow-md">
-      <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-teal-100 text-teal-600 flex-shrink-0 text-3xl">
+      <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-600 flex-shrink-0 text-3xl -skew-y-12 -skew-x-6" style={{boxShadow:"3px 3px 0 5px #99a"}}>
         {children}
       </div>
       <div className="flex-grow">

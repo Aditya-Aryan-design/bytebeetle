@@ -5,12 +5,12 @@ import { memo } from "react"
 
 function page() {
   return (
-    <div className="flex-1">
+    <main>
       <Hero />
       <HomeAbout />
       <hr />
       <Features />
-    </div>
+    </main>
   )
 }
 

@@ -21,7 +21,7 @@ function Nav() {
                 {
                     navLinks.map((e, i) => {
                         return (
-                            <Link key={i} href={e.link}><li className={`px-[2vmin] py-[2vmin] border-b-[0.5vmin] hover:bg-gray-100 ${path === e.link ? "text-teal-600 border-teal-600" : "text-gray-500 border-transparent"}`}>{e.title}</li></Link>
+                            <Link key={i} href={e.link}><li className={`px-[2vmin] py-[2vmin] border-b-[0.5vmin] hover:bg-zinc-700 ${path === e.link ? "text-blue-500 border-blue-500" : "text-gray-300 border-transparent"}`}>{e.title}</li></Link>
                         )
                     })
                 }
@@ -31,7 +31,7 @@ function Nav() {
 
             <div className="md:hidden">
 
-                <div className="py-[2vmin] text-[6vmin]">
+                <div className="py-[2vmin] text-[6vmin] text-blue-500">
                 {
                     showNav?<button onClick={()=>setShowNav(false)}>
                         <RxCross1 />
@@ -53,7 +53,7 @@ function Nav() {
                     navLinks.map((e, i) => {
                         return (
                             <Link href={e.link} key={i}>
-                                <li className={`px-[4vmin] py-[2vmin] hover:bg-gray-100 ${path === e.link ? "text-teal-600" : "text-gray-500"}`}>{e.title}</li>
+                                <li className={`px-[4vmin] py-[2vmin] hover:bg-gray-200 ${path === e.link ? "text-blue-600" : "text-gray-600"}`}>{e.title}</li>
                             </Link>
                         )
                     })

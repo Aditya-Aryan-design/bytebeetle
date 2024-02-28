@@ -3,6 +3,7 @@ import { ContactTitle,Desc } from "@/data/ContactData"
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
 import { memo } from "react"
+import SubmitButton from "@/components/SubmitButton"
 
 
 
@@ -69,22 +70,22 @@ const page = () => {
         <label htmlFor="full-name" className="leading-7 text-sm text-gray-600">Full Name</label>
         <input
         value={name} onChange={e=>setName(e.target.value)}
-        type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-teal-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required/>
+        type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required/>
       </div>
       <div className="relative mb-4">
         <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
         <input
         value={email} onChange={e=>setEmail(e.target.value)}
-        type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-teal-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required/>
+        type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required/>
       </div>
       <div className="relative mb-4">
         <label htmlFor="phone" className="leading-7 text-sm text-gray-600">Phone No</label>
         <input
         value={phone} onChange={e=>setPhone(e.target.value)}
-        type="tel" id="phone" name="phone" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-teal-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required/>
+        type="tel" id="phone" name="phone" className="w-full bg-white rounded border border-gray-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required/>
       </div>
 
-      <button className="text-white bg-teal-600 border-0 py-2 px-8 focus:outline-none hover:bg-teal-700 rounded text-lg" type="submit">Button</button>
+    <SubmitButton />
 
       <p className={`text-[0.6rem] sm:text-xs text-center font-semibold ${err?"text-red-500":"text-green-500"}`}>{msg}</p>
     </form>

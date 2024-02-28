@@ -19,7 +19,7 @@ const page = () => {
       <div className="space-y-4">
         <Desc2 />
         <div className="flex justify-center md:justify-end">
-          <Link href={button.link}><button className="inline-flex text-white bg-teal-600 border-0 py-2 px-6 focus:outline-none hover:bg-teal-700 rounded text-lg">{button.name}</button></Link>
+          <Link href={button.link}><button className="inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg">{button.name}</button></Link>
         </div>
       </div>
     </main>

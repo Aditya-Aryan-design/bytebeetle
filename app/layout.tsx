@@ -23,14 +23,12 @@ export default memo(function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="h-screen  overflow-x-hidden overflow-y-auto select-none flex flex-col justify-between">
+      <body className="overflow-x-hidden overflow-y-auto select-none flex flex-col">
         <Header />
         <CallButton />
-        <div className="flex-1 flex flex-col justify-between overflow-y-auto">
           {children}
 
           <Footer />
-        </div>
       </body>
     </html>
   );
