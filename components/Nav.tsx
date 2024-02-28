@@ -31,7 +31,7 @@ function Nav() {
 
             <div className="md:hidden">
 
-                <div className="py-[2vmin] text-[6vmin] text-blue-500">
+                <div className="py-[2vmin] text-[6vmin] text-gray-200">
                 {
                     showNav?<button onClick={()=>setShowNav(false)}>
                         <RxCross1 />

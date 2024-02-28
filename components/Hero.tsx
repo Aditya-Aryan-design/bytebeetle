@@ -21,7 +21,7 @@ const Hero = () => {
       <Image src={img} alt="heroimage" width={300} height={300} className="w-[90%] h-auto max-h-96 max-w-96 m-2 sm:m-5 rounded-xl shadow-md"/>
 
     <div className=" text-center">
-      <h1 className="title-font sm:text-4xl text-2xl mb-4 font-bold text-blue-500 py-5">{title}
+      <h1 className="title-font sm:text-4xl text-2xl mb-4 font-bold text-blue-600 py-5">{title}
       </h1>
       <p className="mb-8 leading-relaxed"><Desc/></p>
       <div className="flex justify-center">

@@ -8,7 +8,7 @@ const {whatsapp} = ownerContact;
 
 const CallButton = () => {
   return (
-    <a href={whatsapp} target="_blank" className="sticky left-[80vw] top-[90vh] w-fit z-[999]"><motion.div
+    <a href={whatsapp} target="_blank" className="sticky left-[80vw] top-[80vh] w-fit z-[999]"><motion.div
         animate={{scale:[1, 1.2]}}
         transition={{
             duration:0.5,

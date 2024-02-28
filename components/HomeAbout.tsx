@@ -21,7 +21,7 @@ const HomeAbout = () => {
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-4">
-      <Image className="object-cover object-center rounded-tl-[20vh] rounded-br-[20vh] w-full -skew-x-12" alt="A freelance worker" src={img} height={300} width={300} style={{boxShadow:"20px 20px 10px 0px #a7a"}}/>
+      <Image className="object-cover object-center rounded-tl-[20px] rounded-br-[20px] w-full" alt="A freelance worker" src={img} height={300} width={300} style={{boxShadow:"20px 20px 10px 0px #a7a"}}/>
     </div>
   </div>
 </section>
